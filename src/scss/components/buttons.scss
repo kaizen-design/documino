@@ -1,0 +1,37 @@
+//---------------------------------------------
+//
+//  Buttons Component
+//
+//    1. Imports
+//    2. Component
+//
+//---------------------------------------------
+
+//---------------------------------------------
+// 1. Imports
+//---------------------------------------------
+
+@import "../variables";
+@import "~bootstrap/scss/variables";
+
+//---------------------------------------------
+// 2. Component
+//---------------------------------------------
+
+.btn {
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: $font-family-secondary;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  &.btn-lg {
+    border-radius: 12px;
+    padding: 19px 32px;
+  }
+  &.btn-light {
+    color: $link-color;
+    &:focus, &:active {
+      color: $link-color;
+    }
+  }
+}

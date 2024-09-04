@@ -1,0 +1,53 @@
+//---------------------------------------------
+//
+//  Navbar Component
+//
+//    1. Imports
+//    2. Component
+//
+//---------------------------------------------
+
+//---------------------------------------------
+// 1. Imports
+//---------------------------------------------
+
+@import "../variables";
+@import "~bootstrap/scss/variables";
+
+//---------------------------------------------
+// 2. Component
+//---------------------------------------------
+
+.nav-main {
+  border-bottom: 1px solid #C1C1C1;
+  .navbar-brand {
+
+  }
+  .nav {
+    .nav-item {
+      .nav-link {
+        color: #393939;
+        font-size: 1rem;
+        font-weight: 500;
+        letter-spacing: 0.02em;
+        transition: $transition-base;
+        &:hover {
+          color: $link-hover-color;
+        }
+      }
+    }
+  }
+  .nav-phone {
+    font-family: $font-family-secondary;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: $link-color;
+    text-decoration: none;
+    transition: $transition-base;
+    white-space: nowrap;
+    &:hover {
+      color: $link-hover-color;
+    }
+  }
+}

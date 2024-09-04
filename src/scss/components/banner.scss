@@ -1,0 +1,57 @@
+//---------------------------------------------
+//
+//  Slider Component
+//
+//    1. Imports
+//    2. Component
+//
+//---------------------------------------------
+
+//---------------------------------------------
+// 1. Imports
+//---------------------------------------------
+
+@import "../variables";
+@import "~bootstrap/scss/variables";
+
+//---------------------------------------------
+// 2. Component
+//---------------------------------------------
+
+.main-banner {
+  .banner-section {
+    background: $primary;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 100%;
+  }
+  .banner-sidebar {
+    background: radial-gradient(77.58% 77.58% at 88.8% 34.8%, #1E88E5 0%, #1B76C9 100%);
+    padding: 40px 0;
+  }
+  .banner-content {
+    background: radial-gradient(96.73% 96.73% at 88.8% 34.8%, #1E88E5 0%, #1B76C9 100%);
+    padding: 60px;
+    h2 {
+      color: #D8E5F0;
+      font-weight: bold;
+      font-weight: 700;
+      margin: 0;
+      letter-spacing: 0.02em;
+      font-size: 52px;
+      text-transform: uppercase;
+    }
+    h4 {
+      color: #D8E5F0;
+      font-weight: bold;
+      font-weight: 300;
+      margin: 0;
+      letter-spacing: 0.02em;
+      font-size: 24px;
+      text-transform: uppercase;
+      strong {
+        font-weight: bold;
+      }
+    }
+  }
+}
