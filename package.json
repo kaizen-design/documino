@@ -6,8 +6,7 @@
     "scripts": {
         "build": "webpack --config webpack.config.js --mode production",
         "dev": "webpack-dev-server --open --config webpack.config.js --mode development",
-        "images": "node ./bin/images.js",
-        "deploy": "push-dir --dir=public --branch=main --cleanup"
+        "images": "node ./bin/images.js"
     },
     "type": "module",
     "author": "Dominik Hanke",
